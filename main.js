@@ -10,6 +10,6 @@ const func2 = () => {
   console.log("func2");
 };
 
-const func4 = () => {
-  console.log("func4");
+const func3 = () => {
+  console.log("func3");
 };
