@@ -1,10 +1,10 @@
-const mypromise = () =>
-  new Promise((res) => {
+const mypromise = () => {
+  return new Promise((res) => {
     setTimeout(() => {
       res(new Date());
     }, 1000);
   });
-
+};
 const main = async () => {
   for (let i = 0; ; i++) {
     try {
